@@ -1,0 +1,26 @@
+body
+{
+    background: url(contactusbg.jpeg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+}
+.home input[type="button"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #ffff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.home input[type="button"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}

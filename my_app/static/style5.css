@@ -1,0 +1,73 @@
+body{
+
+    background: url(subject1.jpeg);
+    background-size: cover;
+    background-position: center;
+    color: black;
+    left: 50px;
+    size: 10px;
+}
+.body
+{
+    font-size: 25px;
+    left: 50px;
+    top:25%;
+}.button2 input[type="button"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    top: 10%;
+    left:100%;
+    background: black;
+    color: #ffff;
+    font-size: 12px;
+    border-radius: 20px;
+}
+.button2 input[type="button"]:hover
+{
+    cursor: pointer;
+    background: white;
+    color: #000;
+}
+
+.dropdown1
+{
+    font-family: sans-serif;
+    color: black;
+    font-size: 18px;
+    left: 50px;
+    size: 10px;
+}
+.dropdown2
+{
+    font-family: sans-serif;
+    color:  black;
+    font-size: 18px;
+    left: 50px;
+    size: 10px;
+}
+.dropdown3
+{
+    font-family: sans-serif;
+    color:  black;
+    font-size: 18px;
+    left: 50px;
+    size: 10px;
+}
+.button input[type="button"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: black;
+    color: #ffff;
+    font-size: 12px;
+    border-radius: 20px;
+}
+.button input[type="button"]:hover
+{
+    cursor: pointer;
+    background: white;
+    color: #000;
+}

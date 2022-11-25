@@ -1,0 +1,60 @@
+{% load static %}
+<html>
+<head>
+    <title>
+       test
+    </title>
+    <link rel="stylesheet"  href="{% static 'style5.css' %}">
+    <body>
+<div class="button2">
+        <a href="{{ request.META.HTTP_REFERER}}">
+           <input type="button" name="" value="home">
+        </a>
+
+        <div class="body">
+        <h1>Select Your Subjects</h1>
+    </div>
+        <form>
+
+                <div class="dropdown1">
+                <h1>Physics</h1>
+
+
+                        <p><span><input type="checkbox" name="checks[]" value="1"/></span>kinematics</p>
+                        <p><span><input type="checkbox" name="checks[]" value="2"></span>EM waves</p>
+                        <p><span><input type="checkbox" name="checks[]" value="3"></span>Modern Physics</p>
+
+                </div>
+
+
+                <div class="dropdown2">
+                <h1>Chemistry </h1>
+
+
+                        <p><span><input type="checkbox" name="checks[]" value="4"></span>Inorganic chemistry</p>
+                        <p><span><input type="checkbox" name="checks[]" value="5"></span>Physical chemistry</p>
+                        <p><span><input type="checkbox" name="checks[]" value="6"></span>Organic chemistry</p>
+
+                </div>
+
+
+                <div class="dropdown3">
+                <h1>Mathematics</h1>
+
+
+                        <p><span><input type="checkbox" name="checks[]" value="7"></span>Algebra</p>
+                        <p><span><input type="checkbox" name="checks[]" value="8"></span>Probability</p>
+                        <p><span><input type="checkbox" name="checks[]" value="9"></span>set theory</p>
+
+                </div>
+
+        </form>
+        <div class="button">
+            <a href="instruction.html">
+                <input type="button" name="" value="Test Instructions">
+            </a>
+        </div>
+
+    </body>
+</head>
+</html>

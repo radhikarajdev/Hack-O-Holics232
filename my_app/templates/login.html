@@ -1,0 +1,26 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+           login
+        </title>
+        <link rel="stylesheet" type="text/css" href="{% static 'style1.css' %}">
+        <body>
+            <div class="loginbox">
+                <img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn.pixabay.com%2Fphoto%2F2021%2F07%2F02%2F04%2F48%2Fuser-6380868_1280.png&imgrefurl=https%3A%2F%2Fpixabay.com%2Fvectors%2Fuser-avatar-user-icon-account-icon-6380868%2F&tbnid=ea9T8oBGqiQBPM&vet=12ahUKEwjByLDz0Mf7AhV4HLcAHcpTDy0QMygmegUIARC8Ag..i&docid=EaKoj7VG1_fanM&w=1280&h=1280&q=login%20avatar%20image&ved=2ahUKEwjByLDz0Mf7AhV4HLcAHcpTDy0QMygmegUIARC8Ag" class="avatar">
+                <h1>login</h1>
+                <form action="{%url 'signup'%}"method="POST">
+                    <p>username</p>
+                    <input type="text" name="" placeholder=" Enter Username">
+                    <p>Password</p>
+                    <input type="password" name="" placeholder="Enter password">
+                    <a href="dashboard">
+                    <input type="button" name="" value="Login" >
+                </a>
+                        <a href="signup">Don't have an account?</a>
+                </form>
+            </div>
+        </body>
+    </head>
+</html>
